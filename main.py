@@ -1,16 +1,17 @@
-# This is a sample Python script.
+# Example of Error Handling:
+# try:
+#     response = client.messages.create(...)  # API call that might fail
+#     print(response.content)
+# except anthropic.APIConnectionError as e:
+#     print(f"No internet connection: {e}")
+# except anthropic.AuthenticationError:
+#     print("Bad API key — check your .env file")
+# except Exception as e:
+#     print(f"Unexpected error: {e}")  # catch-all
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+def main(self):
+    print(f'Hello World!')
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    main('PyCharm')
