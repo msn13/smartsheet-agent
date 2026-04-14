@@ -1,0 +1,154 @@
+{
+  "sheets": [
+    {
+      "id": "1001",
+      "name": "Q3 Platform Migration",
+      "department": "Engineering",
+      "tasks": [
+        {
+          "task": "Backend API Migration",
+          "status": "At Risk",
+          "owner": "Sarah K.",
+          "due_date": "Apr 18, 2025",
+          "priority": "High",
+          "notes": "Blocked on vendor portal access. Ticket #4821 opened Apr 10, no ETA."
+        },
+        {
+          "task": "Database Schema Refactor",
+          "status": "In Progress",
+          "owner": "Marcus T.",
+          "due_date": "Apr 16, 2025",
+          "priority": "High",
+          "notes": "75% complete. On track."
+        },
+        {
+          "task": "Load Testing",
+          "status": "Not Started",
+          "owner": "Dev Team",
+          "due_date": "Apr 20, 2025",
+          "priority": "High",
+          "notes": "Cannot begin until API migration completes."
+        },
+        {
+          "task": "Frontend Integration",
+          "status": "In Progress",
+          "owner": "Priya N.",
+          "due_date": "Apr 22, 2025",
+          "priority": "Medium",
+          "notes": "Dependent on backend API endpoints being finalized."
+        },
+        {
+          "task": "Security Audit",
+          "status": "Not Started",
+          "owner": "InfoSec Team",
+          "due_date": "Apr 24, 2025",
+          "priority": "High",
+          "notes": "Scheduled. Waiting on environment readiness."
+        },
+        {
+          "task": "Staging Environment Setup",
+          "status": "Complete",
+          "owner": "DevOps",
+          "due_date": "Apr 10, 2025",
+          "priority": "Medium",
+          "notes": "Done."
+        },
+        {
+          "task": "Rollback Plan Documentation",
+          "status": "In Progress",
+          "owner": "Sarah K.",
+          "due_date": "Apr 17, 2025",
+          "priority": "Medium",
+          "notes": "Draft in review."
+        },
+        {
+          "task": "Stakeholder Sign-off",
+          "status": "Not Started",
+          "owner": "Project Manager",
+          "due_date": "Apr 25, 2025",
+          "priority": "High",
+          "notes": "Requires security audit and load testing results first."
+        },
+        {
+          "task": "Production Deployment",
+          "status": "Not Started",
+          "owner": "DevOps",
+          "due_date": "Apr 28, 2025",
+          "priority": "High",
+          "notes": "Final milestone. Blocked by all upstream tasks."
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "name": "Marketing Campaign Tracker — Q2 Launch",
+      "department": "Marketing",
+      "tasks": [
+        {
+          "task": "Brand Messaging Framework",
+          "status": "Complete",
+          "owner": "Dana R.",
+          "due_date": "Apr 5, 2025",
+          "priority": "High",
+          "notes": "Approved by VP Marketing."
+        },
+        {
+          "task": "Landing Page Copywriting",
+          "status": "In Progress",
+          "owner": "Dana R.",
+          "due_date": "Apr 15, 2025",
+          "priority": "High",
+          "notes": "First draft submitted. Awaiting design review."
+        },
+        {
+          "task": "Paid Social Ad Creative",
+          "status": "At Risk",
+          "owner": "Creative Agency",
+          "due_date": "Apr 14, 2025",
+          "priority": "High",
+          "notes": "Agency missed first review cycle. Revised delivery expected Apr 16."
+        },
+        {
+          "task": "Email Sequence (5 emails)",
+          "status": "In Progress",
+          "owner": "Jordan M.",
+          "due_date": "Apr 17, 2025",
+          "priority": "Medium",
+          "notes": "Emails 1-3 complete. 4-5 in draft."
+        },
+        {
+          "task": "SEO Blog Posts (x3)",
+          "status": "At Risk",
+          "owner": "Content Team",
+          "due_date": "Apr 12, 2025",
+          "priority": "Medium",
+          "notes": "Overdue. Only 1 of 3 posts finalized. Writer capacity issue."
+        },
+        {
+          "task": "Campaign Analytics Dashboard",
+          "status": "Not Started",
+          "owner": "Growth Team",
+          "due_date": "Apr 21, 2025",
+          "priority": "Medium",
+          "notes": "Waiting on UTM parameter finalization."
+        },
+        {
+          "task": "Influencer Outreach (10 targets)",
+          "status": "In Progress",
+          "owner": "Partnerships",
+          "due_date": "Apr 18, 2025",
+          "priority": "Low",
+          "notes": "6 of 10 confirmed. 4 pending response."
+        },
+        {
+          "task": "Campaign Launch — Go Live",
+          "status": "Not Started",
+          "owner": "Marketing Director",
+          "due_date": "Apr 28, 2025",
+          "priority": "High",
+          "notes": "Contingent on creative assets and landing page approval."
+        }
+      ]
+    }
+  ]
+}
