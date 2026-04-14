@@ -1,6 +1,7 @@
 import os, json, anthropic
 from dotenv import load_dotenv
 from datetime import datetime
+
 load_dotenv()
 
 ai_client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
