@@ -18,7 +18,7 @@ def list_sheets() -> str:
 @mcp.tool()
 def generate_report(sheet_id: str) -> str:
     """Generates an executive project status report for a specific Smartsheet.
-    Use after list_sheets() to get the sheet ID. Returns a formatted markdown report."""
+    Use after list_sheets() to get the sheet ID. Returns a formatted Markdown report."""
     return _generate_report(sheet_id)
 
 

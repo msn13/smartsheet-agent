@@ -28,6 +28,7 @@ TOOLS = [
     }
 ]
 
+
 def execute_tool(name: str, inputs: dict) -> str:
     if name == "list_sheets":
         return list_sheets()
